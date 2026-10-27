@@ -56,6 +56,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalResources
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
@@ -167,6 +168,7 @@ private fun GestureLayer(
     onLabel: (String?) -> Unit
 ) {
     val context = LocalContext.current
+    val resources = LocalResources.current
     val activity = remember(context) { context.findActivity() }
     val audio = remember(context) { context.getSystemService(Context.AUDIO_SERVICE) as AudioManager }
     val brightnessFormat = R.string.video_brightness
@@ -199,7 +201,7 @@ private fun GestureLayer(
                         activity?.window?.let { window ->
                             window.attributes = window.attributes.apply { screenBrightness = brightness }
                         }
-                        onLabel(context.getString(brightnessFormat, (brightness * 100).roundToInt()))
+                        onLabel(resources.getString(brightnessFormat, (brightness * 100).roundToInt()))
                     } else {
                         val max = audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC)
                         volumeAccumulator += delta * max
@@ -210,7 +212,7 @@ private fun GestureLayer(
                             audio.setStreamVolume(AudioManager.STREAM_MUSIC, (current + steps).coerceIn(0, max), 0)
                         }
                         val percent = audio.getStreamVolume(AudioManager.STREAM_MUSIC) * 100 / max.coerceAtLeast(1)
-                        onLabel(context.getString(volumeFormat, percent))
+                        onLabel(resources.getString(volumeFormat, percent))
                     }
                 }
             }
