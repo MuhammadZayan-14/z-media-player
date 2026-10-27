@@ -3,7 +3,7 @@ package app.resonance
 import android.Manifest
 import android.os.Build
 import androidx.compose.ui.test.assertIsDisplayed
-import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.compose.ui.test.junit4.v2.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -76,5 +76,5 @@ class AppNavigationTest {
     }
 }
 
-private fun androidx.compose.ui.test.junit4.AndroidComposeTestRule<*, *>.onAllNodesWithTextCount(text: String): Int =
+private fun androidx.compose.ui.test.SemanticsNodeInteractionsProvider.onAllNodesWithTextCount(text: String): Int =
     onAllNodes(androidx.compose.ui.test.hasText(text)).fetchSemanticsNodes().size
