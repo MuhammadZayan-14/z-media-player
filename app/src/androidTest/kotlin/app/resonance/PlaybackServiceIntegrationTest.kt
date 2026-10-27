@@ -116,7 +116,7 @@ class PlaybackServiceIntegrationTest {
             id = id, kind = MediaKind.AUDIO, contentUri = Uri.fromFile(file).toString(), title = "Tone $id",
             displayName = file.name, artist = "Test", artistId = 0, album = null, albumId = 0, genre = null,
             durationMs = seconds * 1000L, sizeBytes = file.length(), mimeType = "audio/wav", folderPath = "",
-            dateAddedEpochSec = 0,
+            dateAddedEpochSec = 0
         )
     }
 
