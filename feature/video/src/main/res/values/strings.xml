@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="video_player_label">Video player</string>
+    <string name="video_title">Videos</string>
+    <string name="video_open_file">Open a video file</string>
+    <string name="video_empty_title">No videos found</string>
+    <string name="video_empty_message">Videos stored on this device appear here.</string>
+    <string name="video_resume_at">Resume at %1$s</string>
+    <string name="video_back">Back</string>
+    <string name="video_play">Play</string>
+    <string name="video_pause">Pause</string>
+    <string name="video_rewind">Back 10 seconds</string>
+    <string name="video_forward">Forward 10 seconds</string>
+    <string name="video_speed">Playback speed</string>
+    <string name="video_speed_value">%1$sx</string>
+    <string name="video_aspect">Aspect ratio: %1$s</string>
+    <string name="video_aspect_fit">Fit</string>
+    <string name="video_aspect_zoom">Zoom</string>
+    <string name="video_aspect_stretch">Stretch</string>
+    <string name="video_rotate">Rotate</string>
+    <string name="video_pip">Picture-in-picture</string>
+    <string name="video_seek">Video position</string>
+    <string name="video_brightness">Brightness %1$d%%</string>
+    <string name="video_volume">Volume %1$d%%</string>
+    <string name="video_error_not_found">This video is no longer on your device.</string>
+    <string name="video_error_unsupported">This video format isn\'t supported.</string>
+    <string name="video_error_generic">The video couldn\'t be played.</string>
+</resources>

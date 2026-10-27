@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_play">Play</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_next">Next track</string>
+    <string name="player_previous">Previous track</string>
+    <string name="player_collapse">Close player</string>
+    <string name="player_queue">Queue</string>
+    <string name="player_queue_title">Up next</string>
+    <string name="player_queue_empty">The queue is empty</string>
+    <string name="player_remove_from_queue">Remove %1$s from queue</string>
+    <string name="player_shuffle_on">Shuffle on</string>
+    <string name="player_shuffle_off">Shuffle off</string>
+    <string name="player_repeat_off">Repeat off</string>
+    <string name="player_repeat_all">Repeat all</string>
+    <string name="player_repeat_one">Repeat one</string>
+    <string name="player_speed">Playback speed: %1$s</string>
+    <string name="player_speed_value">%1$sx</string>
+    <string name="player_favorite_add">Add to favorites</string>
+    <string name="player_favorite_remove">Remove from favorites</string>
+    <string name="player_add_to_playlist">Add to playlist</string>
+    <string name="player_seek">Playback position</string>
+    <string name="player_mini_label">Now playing: %1$s. Open player.</string>
+    <string name="player_nothing_playing">Nothing is playing</string>
+    <string name="player_nothing_playing_message">Pick a song from your library to start listening.</string>
+</resources>

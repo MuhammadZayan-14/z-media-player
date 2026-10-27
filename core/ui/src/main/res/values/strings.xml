@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_ui_unknown_artist">Unknown artist</string>
+    <string name="core_ui_unknown_album">Unknown album</string>
+    <string name="core_ui_more_options">More options for %1$s</string>
+    <string name="core_ui_play_next">Play next</string>
+    <string name="core_ui_add_to_queue">Add to queue</string>
+    <string name="core_ui_add_to_playlist">Add to playlist…</string>
+    <string name="core_ui_add_favorite">Add to favorites</string>
+    <string name="core_ui_remove_favorite">Remove from favorites</string>
+    <string name="core_ui_go_to_album">Go to album</string>
+    <string name="core_ui_go_to_artist">Go to artist</string>
+    <string name="core_ui_remove_from_playlist">Remove from playlist</string>
+    <string name="core_ui_move_up">Move up</string>
+    <string name="core_ui_move_down">Move down</string>
+    <string name="core_ui_now_playing">Now playing</string>
+    <string name="core_ui_favorite">Favorite</string>
+    <string name="core_ui_play_all">Play</string>
+    <string name="core_ui_shuffle">Shuffle</string>
+    <string name="core_ui_back">Back</string>
+    <string name="core_ui_search">Search</string>
+    <plurals name="core_ui_track_count">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <plurals name="core_ui_album_count">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+
+    <string name="core_ui_permission_title">Allow access to your music and videos</string>
+    <string name="core_ui_permission_message">Resonance plays files stored on this device. It reads audio and video only, never photos, and nothing leaves your phone.</string>
+    <string name="core_ui_permission_grant">Allow access</string>
+    <string name="core_ui_permission_denied_title">Access is turned off</string>
+    <string name="core_ui_permission_denied_message">Without access to audio and video, the library stays empty. You can turn it on in system settings. You can still open individual files with the file picker.</string>
+    <string name="core_ui_permission_open_settings">Open settings</string>
+    <string name="core_ui_permission_partial">Only the videos you selected are visible.</string>
+    <string name="core_ui_permission_partial_manage">Change</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!--
+            A separate activity so picture-in-picture shrinks only the video, not the library.
+            configChanges keeps the surface (and the decoder) alive across rotation and PiP
+            resizes; the screen is Compose, which relayouts on its own.
+        -->
+        <activity
+            android:name="app.resonance.feature.video.VideoPlayerActivity"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboardHidden|uiMode"
+            android:exported="true"
+            android:label="@string/video_player_label"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="app.resonance.video"
+            android:theme="@style/Theme.Resonance.Video">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

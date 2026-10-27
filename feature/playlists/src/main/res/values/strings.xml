@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playlists_title">Playlists</string>
+    <string name="playlists_collections">Collections</string>
+    <string name="playlists_yours">Your playlists</string>
+    <string name="playlists_new">New playlist</string>
+    <string name="playlists_empty_title">No playlists yet</string>
+    <string name="playlists_empty_message">Create one here, or add songs from any track menu.</string>
+    <string name="playlists_favorites">Favorites</string>
+    <string name="playlists_recently_played">Recently played</string>
+    <string name="playlists_most_played">Most played</string>
+    <string name="playlists_recently_added">Recently added</string>
+    <string name="playlists_name_label">Name</string>
+    <string name="playlists_create">Create</string>
+    <string name="playlists_save">Save</string>
+    <string name="playlists_cancel">Cancel</string>
+    <string name="playlists_rename">Rename</string>
+    <string name="playlists_delete">Delete</string>
+    <string name="playlists_delete_title">Delete \"%1$s\"?</string>
+    <string name="playlists_delete_message">The playlist is removed. The songs stay on your device.</string>
+    <string name="playlists_error_blank">Enter a name</string>
+    <string name="playlists_error_too_long">Use at most %1$d characters</string>
+    <string name="playlists_error_duplicate">A playlist with this name already exists</string>
+    <string name="playlists_play_all">Play</string>
+    <string name="playlists_shuffle">Shuffle</string>
+    <string name="playlists_back">Back</string>
+    <string name="playlists_more">More options</string>
+    <string name="playlists_detail_empty_title">Nothing here yet</string>
+    <string name="playlists_detail_empty_message">Songs you add will appear here.</string>
+    <string name="playlists_add_title">Add to playlist</string>
+    <plurals name="playlists_added">
+        <item quantity="one">Added %1$d song to %2$s</item>
+        <item quantity="other">Added %1$d songs to %2$s</item>
+    </plurals>
+    <string name="playlists_already_there">Already in %1$s</string>
+</resources>

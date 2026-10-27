@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Songs, albums, artists, videos</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_filter_all">All</string>
+    <string name="search_filter_songs">Songs</string>
+    <string name="search_filter_albums">Albums</string>
+    <string name="search_filter_artists">Artists</string>
+    <string name="search_filter_videos">Videos</string>
+    <string name="search_prompt_title">Search your library</string>
+    <string name="search_prompt_message">Type a title, artist or album name.</string>
+    <string name="search_no_results_title">No results</string>
+    <string name="search_no_results_message">Nothing matches \"%1$s\".</string>
+</resources>
